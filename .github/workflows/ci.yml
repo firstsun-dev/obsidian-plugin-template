@@ -16,5 +16,6 @@ jobs:
     uses: firstsun-dev/.github/.github/workflows/obsidian-plugin-ci.yml@main
     with:
       plugin-id: "obsidian-plugin-template"
+      node-version: "24"
     secrets:
-      RELEASE_TOKEN: \${{ secrets.RELEASE_TOKEN }}
+      RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
