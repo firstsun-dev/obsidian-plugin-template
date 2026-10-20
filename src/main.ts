@@ -9,3 +9,5 @@ export default class MyPlugin extends Plugin {
 		console.log('unloading plugin');
 	}
 }
+
+// CI verification only (firstsun-dev/.github#42); do not merge
